@@ -1,0 +1,126 @@
+* {
+	margin:0;
+	padding: 0;
+}
+.container {
+	width: 1172px;
+	margin: 0 auto;
+}
+.row:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+.col-1 {
+	width: 8.33333333%
+}
+.col-2 {
+	width: 16.6666667%
+}
+.col-3 {
+	width: 25%;
+}
+.col-7 {
+	width: 58.3333333%;
+}
+[class*="col-"] {
+	float: left;
+}
+body {
+	background-image: url(images/patt.png);
+	font-family: "Roboto", sans-serif;
+}
+header {
+	width: 100%;
+	position: sticky;
+	background: #ffffff;
+	float: left;
+	background:rgba(255,255,255, 0.7);
+}
+.logo {
+	margin-top: 20%;
+}
+.menu {
+	margin: 25px 0;
+	margin-left: 118px;
+}
+.menu ul li {
+	float: left;
+	list-style: none;
+	border-right: 1px solid;
+	border-color: #3366cc;
+	width: 140px;
+}
+a {
+	display: block;
+	text-decoration: none;
+	padding: 18px 0px;
+	text-align: center;
+	font-size: 20px;
+	color: #3366cc; 
+}
+.menu ul li:first-child {
+	border-left: 1px solid #3366cc;
+}
+.search {
+	margin:30px 0;
+	margin-left:20px;
+	color: #3366cc;
+	border:1px solid #3366cc;
+	padding: 5px 5px;	
+}
+.search input {
+	border:none;
+	outline: none;
+	background:transparent;
+	padding:7px 15px;
+	font-size: 20px;
+	color: #3366cc;
+	width: 99px;
+	float: left;
+}
+.search input::placeholder {
+	color: #3366cc;
+}
+.search button {
+	float: left;
+	width: 34px;
+	height: 35px;
+	background-color: #3366cc;
+	border:none;
+	outline: none;
+	background-image: url(images/icon4.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.cart button {
+	margin:35px 0;
+	position: relative;
+	margin-left: 10px;
+	background-color: #fff;
+	width: 40px;
+	height: 40px;
+	background-image: url(images/icon1.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	border: none;
+}
+.circle {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	background: #3366cc;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50%;
+	margin-top: 25px;
+	margin-left: 10px;
+	z-index: 2;
+	text-align: center;
+	color: white;
+}
+li a img {
+	width: 15px;
+	height: 15px;
+	transform: rotate(-90deg);
+}

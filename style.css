@@ -1,0 +1,32 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+}
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+.row:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+[class*="col-"] {
+	float: left;
+}
+.col-3-h {
+	width: 25%;
+}
+.col-6-h {
+	width: 50%;
+}
+body {
+	background-image: url(images/patt.png);
+}
+.header {
+	background-color: rgba(255,255,255,0.75);
+	padding: 25px 0;
+	
+}
